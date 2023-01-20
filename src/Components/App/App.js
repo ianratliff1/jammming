@@ -15,6 +15,17 @@ class App extends React.Component {
       playlistTracks: [{ name: 'PLname1', artist: 'PLartist1', album: 'PLalbum1', id: 4 },{ name: 'PLname2', artist: 'PLartist2', album: 'PLalbum2', id: 5 },{ name: 'PLname3',artist: 'PLartist3', album: 'PLalbum3', id: 6 }]
     }
   }
+
+  addTrack(track) {
+    let tracks = this.state.playlistTracks;
+    if(tracks.find(savedTrack => savedTrack.id == track.id)) {
+      return;
+    }
+
+    tracks.push(track);
+    this.setState({playlistTracks: tracks})
+  }
+
   render() {
     return (
       <div>
