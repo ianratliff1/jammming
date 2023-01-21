@@ -1,0 +1,39 @@
+{
+    "collaborative": false,
+    "description": null,
+    "external_urls": {
+        "spotify": "https://open.spotify.com/playlist/7npKapkjGQGj8U0AUFq0PX"
+    },
+    "followers": {
+        "href": null,
+        "total": 0
+    },
+    "href": "https://api.spotify.com/v1/playlists/7npKapkjGQGj8U0AUFq0PX",
+    "id": "7npKapkjGQGj8U0AUFq0PX",
+    "images": [],
+    "name": "test playlist",
+    "owner": {
+        "display_name": "Ian Ratliff",
+        "external_urls": {
+            "spotify": "https://open.spotify.com/user/1297950720"
+        },
+        "href": "https://api.spotify.com/v1/users/1297950720",
+        "id": "1297950720",
+        "type": "user",
+        "uri": "spotify:user:1297950720"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "MSw2Mzg3ZDZjZTc0MTczM2VhZGRkODY1MzNkZWQ3M2YxNjM0MzA2ZWIy",
+    "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/7npKapkjGQGj8U0AUFq0PX/tracks",
+        "items": [],
+        "limit": 100,
+        "next": null,
+        "offset": 0,
+        "previous": null,
+        "total": 0
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:7npKapkjGQGj8U0AUFq0PX"
+}
